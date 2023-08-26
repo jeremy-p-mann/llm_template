@@ -30,6 +30,12 @@ For example, you can check your installation worked via:
 poetry run pytest
 ```
 
+Or run a development server via:
+
+```bash
+poetry run streamlit run dashboards/simple_chat.py --server.port=8501
+```
+
 ## Dependencies
 
 ### Pytest
