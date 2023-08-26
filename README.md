@@ -74,3 +74,20 @@ echo export OPENAI_API_KEY=<key> >> ~/.profile
 
 see [here](https://platform.openai.com/account/api-keys) for generating API keys.
 
+### LangChain
+
+LangChain is a llm app framework. See their (documentation)[https://python.langchain.com/docs]
+
+LangChain's advantages are:
+
+1. Making llm's "interchangeable". E.g. Use Llama2 instead of gpt-3.5-turbo without
+having to change your prompt engineering code.
+1. Out-of-the-box agents/prompts/etc. as well as tools (e.g. google search etc.)
+
+
+## Chroma
+
+Chroma is an easy, open source, in-memory vector database. This allows for easy in-memory
+semantic search, see
+[documenation](https://python.langchain.com/docs/integrations/vectorstores/chroma)
+for how to use it with langchain.
