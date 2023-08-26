@@ -13,6 +13,7 @@ streamlit = "^1.26.0"
 pandas = "^2.0.3"
 langchain = "^0.0.273"
 chromadb = "^0.4.7"
+watchdog = "^3.0.0"
 
 
 [build-system]
