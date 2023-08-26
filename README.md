@@ -97,3 +97,24 @@ Chroma is an easy, open source, in-memory vector database. This allows for easy 
 semantic search, see
 [documenation](https://python.langchain.com/docs/integrations/vectorstores/chroma)
 for how to use it with langchain.
+
+
+### General Notes
+
+Put your code that will be used throughout different prototypes inside of 
+the llm folder. Make sure to always use "absolute imports":
+
+Good:
+```python
+from llm.dumbest_llm import DumbestLLM
+```
+
+Bad:
+```python
+from .dumbest_llm import DumbestLLM
+```
+
+Transitioning from javascript to python modules is notoriously fraught. Do it
+the python way, don't try to force javascript practices.
+
+
